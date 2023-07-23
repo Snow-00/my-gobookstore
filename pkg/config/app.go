@@ -6,9 +6,17 @@ import(
 )
 
 var (
-  db * gorm.DB
+  db *gorm.DB
 )
 
 func Connect() {
-  d, err := gorm.Open("mysql", "Snow-00:)
+  d, err := gorm.Open("mysql", "Snow-00:password/simplerest?charset=utf8&parseTime=True&loc=Local")  // account:password/db_name?
+  if err != nil {
+    panic(err)
+  }
+  db = d
+}
+
+func GetDB() *gorm.DB {
+  return db
 }
