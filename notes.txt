@@ -3,5 +3,8 @@ routes
 app
 utils
 models
-book controller
 main
+book controller
+
+
+GORM V2 moved to https://github.com/go-gorm/gorm
