@@ -8,3 +8,7 @@ book controller
 
 
 GORM V2 moved to https://github.com/go-gorm/gorm
+
+install mysql di localhost buat nyobain
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+https://hevodata.com/learn/installing-mysql-on-ubuntu-20-04/
